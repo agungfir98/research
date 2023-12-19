@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\imchu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init -t
+
+PATH: 
+  C:\Users\imchu\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\opt\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Users\imchu\AppData\Local\Pub\Cache\bin;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\16\bin;C:\Users\imchu\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\imchu\AppData\Local\Programs\Python\Python311;C:\Users\imchu\scoop\persist\composer\home\vendor\bin;C:\Users\imchu\scoop\apps\gcc\current\bin;C:\Users\imchu\scoop\shims;C:\Users\imchu\AppData\Local\Microsoft\WindowsApps;C:\Users\imchu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\imchu\AppData\Local\Programs\Hyper\resources\bin;C:\Users\imchu\flutter\flutter\bin;C:\Users\imchu\AppData\Local\Programs\oh-my-posh\bin;C:\Users\imchu\go\bin;C:\Program Files\PostgreSQL\15\bin;C:\Users\imchu\AppData\Local\Android\Sdk\emulator;C:\Users\imchu\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-11\bin;C:\Users\imchu\AppData\Local\GitHubDesktop\bin;C:\Users\imchu\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\imchu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:376:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
